@@ -1,0 +1,31 @@
+# macOS-specific
+.DS_Store
+# Common Linux / VS Code / editor files
+*~
+*.swp
+*.swo
+# VS Code and JetBrains project settings
+.vscode/
+.idea/
+
+# Local scripts and key material - never commit sensitive files
+encrypt_secrets.rb
+lockbox_key.txt
+lockbox_key_base64.txt
+encrypted_lockbox_key.txt
+encrypted_lockbox_key_base64.txt
+decrypt_lockbox_key_script.rb
+encrypt_lockbox_key_script.rb
+lockbox_test.rb
+lockbox_test_decrypted.txt
+
+# Ignore bundler config.
+/.bundle
+/vendor/bundle/
+/vendor/cache/
+Gemfile.lock
+
+# Lockbox and Rails secret management files
+config/initializers/lockbox.rb
+config/master_key.txt
+config/secrets.json
