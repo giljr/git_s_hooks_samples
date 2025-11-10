@@ -1,3 +1,4 @@
 puts "Hi from main!"
-# TODO: This is a placeholder for credentials functionalities.
 # Let's test our custom hook!
+
+Puts "Message should start with a tyoe: fix, feat, docs, chore, test "
