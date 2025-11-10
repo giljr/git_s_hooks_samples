@@ -2,6 +2,8 @@
 # 🪝 Git's pre-commit & commit-msg Hooks  
 ### From Zero to Your First Hook — The Essential Starting Point  
 
+[Tutorial](https://medium.com/jungletronics/gits-pre-commit-commit-msg-hooks-9d541bb6dffd)
+
 This project is a hands-on introduction to **Git Hooks** — the automated scripts that help keep your repository clean and consistent. 
 
 You'll learn how to build two essential ones:  
@@ -14,8 +16,8 @@ You'll learn how to build two essential ones:
 
 ### 1. Clone this repository  
 ```bash
-git clone https://github.com/<your-username>/git-hooks-tutorial.git
-cd git-hooks-tutorial
+git clone git@github.com:giljr/git_s_hooks_samples.git
+cd git_s_hooks_samples
 ```
 
 2. Explore the hooks
