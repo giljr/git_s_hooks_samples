@@ -92,7 +92,7 @@ end
 
 On Terminal:
 ```bash
-vim .github/hooks/pre-commit
+vim .git/hooks/pre-commit
 ```
 Inside, paste:
 ```bash
@@ -117,11 +117,10 @@ exit 0
 
 On Terminal type, to quit: 
 ```bash
-:q
+:qesc
+:wq
+enter
 ```
-
-
-
  b)  **commit-msg**:
 
 ```
@@ -166,13 +165,15 @@ exit 0
 
 On Terminal type, to quit: 
 ```bash
-:q
+esc
+:wq
+enter
 ```
 
 ### 4. Make them executable
 ```bash
-chmod +x .git/hooks/pre-commit
-chmod +x .git/hooks/commit-msg
+chmod u+x .git/hooks/pre-commit
+chmod u+x .git/hooks/commit-msg
 ```
 
 
